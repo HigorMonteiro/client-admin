@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-hero {
+  margin-top: -120px;
+}
+
+.shadow-custom-shadow {
+  --tw-shadow: 0px 40px 66px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0px 200px 200px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
